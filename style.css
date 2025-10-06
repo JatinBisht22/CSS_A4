@@ -1,0 +1,148 @@
+.section-1{
+    text-align: center;
+    background-image: linear-gradient(to right, red, green, yellow);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+    /* justify-content: center; */
+}
+
+.section-2{
+    text-align: center;
+    width: 800px;
+    background-color: turquoise;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+ul{
+    text-align: left;
+    display: inline-block;
+}
+
+.section-3{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.container-1{
+    display: flex;
+}
+
+.p1{
+    background-color: aqua;
+    font-weight: bold;
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.container-2{
+    margin-left: 400px;
+    margin-bottom: -10px;
+}
+
+.section-4{
+    text-decoration: underline;
+    text-align: center;
+    background-image: linear-gradient(to right, red, yellow, red);
+}
+
+.section-5{
+    background-image: radial-gradient(blue, aqua, green);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.details{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    padding-bottom: 7px;
+}
+
+.section-6{
+    display: grid;
+    width: 1250px;
+    height: auto;
+    border: 2px solid black;
+    margin-top: 5px;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.heading{
+    background-color: red;
+    grid-column: 1/5;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box1{
+    background-color: green;
+    opacity: 0.4;
+    color: white;
+    text-align: center;
+    height: 70px;
+    width: 350px;
+}
+
+.box2{
+    background-color: blue;
+    opacity: 0.4;
+    color: white;
+    height: 70px;
+    width: 350px;
+}
+
+.box3{
+    background-color: blue;
+    color: white;
+    height: 70px;
+    width: 350px;
+}
+
+.box4{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    height: 180px;
+    width: 130px;
+    grid-column-start: 4;
+    grid-row: 2/8;
+}
+
+.box5{
+    background-color: darkgoldenrod;
+    color: white;
+    grid-column: 1/4;
+    padding: 5px;
+}
+
+.box6{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background-color: aqua;
+    text-align: center;
+    grid-column: 1/5;
+}
